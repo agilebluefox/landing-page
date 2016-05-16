@@ -1,0 +1,1 @@
+This is a practice assignment in which I'll make a copy of a startup page from scratch to improve my HTML5, CSS3, and Git/GitHub skills.
