@@ -12,9 +12,14 @@ footer {
     border: 1px solid Chocolate;
 }
 
-/* Here's where the real styling begins! */
+/*  Here's where the real styling begins! Try to use rem instead of px or em.
+    This increases responsiveness when the user prefers a different
+    default font size. "em" bases the font size on the element, but "rem"
+    bases it on the default size for the body.
+*/
 
 html {
+    /* Use box-sizing to control how padding and borders are applied to height and width */
     box-sizing: border-box;
 }
 
@@ -27,13 +32,15 @@ body {
     font-size: 1em;
     color: #838994;
     letter-spacing: 0.03em;
+    /* This makes the fonts appear less heavy - very nice! */
     -webkit-font-smoothing: antialiased;
 }
 
 .nav-logo {
     height: 3rem;
-    margin-left: 1rem;
-    margin: .5rem 1rem;
+    margin-left: 5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .topnav {
@@ -43,6 +50,7 @@ body {
     position: fixed;
 }
 
+/* This can be used on the page for every container requiring these properties. */
 .content {
     margin: 0 auto;
     width: 60rem;
@@ -53,6 +61,7 @@ ul {
     float: right;
     padding: .5em 1em;
     margin-top: 1em;
+    margin-right: 5rem;
 }
 
 .links li {
@@ -60,11 +69,19 @@ ul {
     margin-left: 2rem;
 }
 
+/* Set the hover state and cursor for links */
+.links li:hover {
+    color: #333333;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
 .links > .active {
     color: #4c5058;
     font-weight: 500;
 }
 
+/* The tutorial uses introduction, but I called it masthead already */
 .masthead {
     color: #fff;
     height: 45rem;
@@ -88,6 +105,7 @@ ul {
     font-weight: 300;
 }
 
+/* The site uses cases instead of features */
 .features {
     height: 40rem;
     width: 100%;
