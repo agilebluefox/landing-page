@@ -14,13 +14,26 @@ footer {
 
 /* Here's where the real styling begins! */
 
-body {
-
+html {
+    box-sizing: border-box;
 }
+
+*, *:before, *:after  {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #838994;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+}
+
 .nav-logo {
-    height: 2.5rem;
+    height: 3rem;
     margin-left: 1rem;
-    padding: .7rem 0;
+    margin: .5rem 1rem;
 }
 
 .topnav {
@@ -39,11 +52,17 @@ ul {
     list-style: none;
     float: right;
     padding: .5em 1em;
+    margin-top: 1em;
 }
 
-ul.links li {
+.links li {
     display: inline-block;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
+}
+
+.links > .active {
+    color: #4c5058;
+    font-weight: 500;
 }
 
 .masthead {
