@@ -29,11 +29,17 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #838994;
     letter-spacing: 0.03em;
     /* This makes the fonts appear less heavy - very nice! */
     -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
 }
 
 .nav-logo {
@@ -53,7 +59,8 @@ body {
 /* This can be used on the page for every container requiring these properties. */
 .content {
     margin: 0 auto;
-    width: 60rem;
+    min-width: 37.5rem;
+    padding: 0 0.938rem;
 }
 
 ul {
@@ -87,15 +94,20 @@ ul {
     height: 45rem;
     width: 100%;
     background-color: #000000;
-    background-image: url('../images/masthead.jpg');
+    background-image: url('../images/karma_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center bottom;
     overflow: auto;
 }
 
 .masthead h1 {
     margin-top: 17.5rem;
-    font-size: 3.125rem;
+    font-size: 3rem;
+}
+
+.masthead h3 {
+    margin-top: -1rem;
 }
 
 .masthead h1,
@@ -103,6 +115,29 @@ ul {
     color: white;
     text-align: center;
     font-weight: 300;
+}
+
+/* Make some button styles */
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: #ff6600;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #E25E06;
+}
+
+.buttons {
+    margin: 0 auto;
+    width: 10rem;
 }
 
 /* The site uses cases instead of features */

@@ -12,7 +12,6 @@
 <!-- Using the nav tag for the navigation bar -->
 <nav class="topnav">
 <div class="content">
-    <img class="nav-logo" src="images/karma-logo.svg" alt="Karma Logo Image">
     <ul class="links">
         <li class="active">Meet Karma</li>
         <li>How it Works</li>
@@ -21,6 +20,8 @@
         <li>Help</li>
         <li>Login</li>
     </ul>
+    <!-- it's a best practice to have floating elements above non-floating elements. -->
+    <img class="nav-logo" src="images/karma-logo.svg" alt="Karma Logo Image">
 </div>
 </nav>
 <!-- I'm using the header tag, why not? -->
@@ -28,7 +29,9 @@
 <div class="content">
     <h1>Introducing Karma</h1>
     <h3>Bring WiFi with you, everywhere you go.</h3>
-    <div class="buttons">Learn More</div>
+    <div class="buttons">
+        <button>Learn More</button>
+    </div>
 </div>
 </header>
 <!-- This section is for the features/products/cases -->
