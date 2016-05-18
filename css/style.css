@@ -68,7 +68,7 @@ ul {
 /* This can be used on the page for every container requiring these properties. */
 .content {
     margin: 0 auto;
-    min-width: 37.5rem;
+    width: 60%;
     padding: 0 0.938rem;
 }
 
@@ -200,25 +200,51 @@ ul.devices {
     text-align: center;
     height: 3rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* Footer styles */
 footer {
     width: 100%;
-    height: 30rem;
+    height: 20rem;
     background-color: #fff;
 }
 
 footer h5 {
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
+}
+
+ul.social-icons {
+    text-align: center;
+}
+
+ul.social-icons li {
+    display: inline-block;
+    margin: 1rem 2rem;
+    border-radius: 50%;
+    width: 3rem;
+    padding: .7rem;
+    border-color: lightgray;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-facebook {
+    color: #4c66a4;
+}
+
+.fa-instagram {
+    color: #3f729b;
 }
 
 div.copyright {
     text-align: center;
+    font-size: .9rem;
 }
 
 
