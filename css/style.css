@@ -29,7 +29,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 1rem;
     color: #838994;
     letter-spacing: 0.03em;
     /* This makes the fonts appear less heavy - very nice! */
@@ -75,7 +75,7 @@ ul {
 ul.links {
     float: right;
     padding: .5em 1em;
-    margin-top: .7em;
+    margin-top: 1em;
     margin-right: 5rem;
 }
 
@@ -116,6 +116,7 @@ ul.links {
 
 .masthead h3 {
     margin-top: -1rem;
+    font-size: 1.5em;
 }
 
 .masthead h1,
@@ -161,6 +162,7 @@ button:hover {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    font-size: 2.5rem;
 }
 
 /* Features Section */
@@ -223,11 +225,13 @@ footer h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
+    font-size: 1rem;
 }
 
 ul.social-icons {
     text-align: center;
     padding: 0;
+    margin-top: -1rem;
 }
 
 ul.social-icons li {
