@@ -1,5 +1,5 @@
 /* Temporary styles to help in the design process */
-body {
+/* body {
     background-color: LightGray;
 }
 
@@ -10,7 +10,7 @@ section,
 header,
 footer {
     border: 1px solid Chocolate;
-}
+} */
 
 /*  Here's where the real styling begins! Try to use rem instead of px or em.
     This increases responsiveness when the user prefers a different
